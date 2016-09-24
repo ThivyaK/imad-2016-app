@@ -26,7 +26,7 @@ body {
 .img-medium {
     height: 400px;
     width:400px;
-    
+    padding-top:20px;
 }
 ul {
     list-style-type: none;
