@@ -26,7 +26,7 @@ content:`
   'article-two':{
 title:'Article-Two| Thivya Kanagendran',
 date:'Sep10 , 2016',
-heading:'Article Two
+heading:'Article Two'
 content:`
 	<p>
    		This is the content for my second article.
