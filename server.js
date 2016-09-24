@@ -54,6 +54,7 @@ content:`
 	<p>
    		This is the content for my Third article. 
 	</p>`
+    }
 
 };
 
