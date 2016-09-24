@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles= {
-var 'article-one' = {
+var 'article-one':{
 title:'Article-One | Thivya Kanagendran',
 date:'Sep5 , 2016',
 heading:'Article One',
@@ -23,7 +23,7 @@ content:`
 
 },
 
-var 'article-two' = {
+var 'article-two':{
 title:'Article-Two| Thivya Kanagendran',
 date:'Sep10 , 2016',
 heading:'Article Two
@@ -40,7 +40,7 @@ content:`
 
 },
 
-var 'article-three' = {
+var 'article-three':{
 title:'Article-Three| Thivya Kanagendran',
 date:'Sep15 , 2016',
 heading:'Article Three',
