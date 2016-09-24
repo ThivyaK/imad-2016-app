@@ -1,7 +1,8 @@
 body {
-    font-family: comic-sans;
-    background-color: #FF6666;
-    margin-top: 75px;
+    font-family: comic sans MS;
+    background-color: #BC8F8F;
+    margin-Top: 75px;
+    margin:0 auto;
 
 }
 
@@ -13,11 +14,15 @@ body {
     font-size: 300%;
 }
 
-.bold {
-    font-weight: bold;
+.normal {
+    font-weight: normal;
+}
+.bold{
+    font-weight:bold;
 }
 
 .img-medium {
-    height: 200px;
+    height: 300px;
+    
 }
 
