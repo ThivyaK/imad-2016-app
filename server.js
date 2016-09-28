@@ -102,7 +102,7 @@ var htmlTemplate = `
 app.get('/counter',function(req,res) {
     var counter = 0;
     counter = counter + 1;
-    res.send(counter.ToString())
+    res.send(counter.Tostring())
 });
 
 app.get('/', function (req, res) {
