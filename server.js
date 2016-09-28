@@ -118,8 +118,8 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui' , 'main.js'));
 });
 
-app.get('/ui/Programmer-imad.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Programmer-imad.png'));
+app.get('/ui/pROFILEPIC.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pROFILEPIC.JPG'));
 });
 
 
