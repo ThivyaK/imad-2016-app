@@ -99,6 +99,12 @@ var htmlTemplate = `
 }
 
 
+app.get('/counter',function(req,res) {
+    var counter = 0;
+    counter = counter + 1;
+    res.send(counter.ToString())
+});
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
