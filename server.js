@@ -105,7 +105,7 @@ app.get('/counter',function(req,res) {
 });
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'hi.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'Hi.html'));
 });
 
 app.get('/:articleName', function(req, res){
