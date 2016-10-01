@@ -99,6 +99,9 @@ submit.onclick = function() {
   for(var i=0;i<comments.length;i++) {
       list += '<li>' + comments[i] + '</li>'
   }
+  
+  var ulcomment = document.getElementById('comment-list');
+  ulcomment.innerHTML = list;
   //Make the request
 };
     
