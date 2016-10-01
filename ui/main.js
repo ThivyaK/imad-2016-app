@@ -51,9 +51,6 @@ button.onclick = function() {
 
 
 //Submit name  code
-
-var nameInput = document.getElementById('name');
-var name = nameInput.value;
 var submitbtn = document.getElementById('submit');
 submit.onclick = function() {
       // Make a request to the server and send the name
@@ -82,8 +79,9 @@ submit.onclick = function() {
             //Not done yet
         }
       }
-                
-           //Make the request
+         //Make the request
+          var nameInput = document.getElementById('name');
+          var name = nameInput.value;
           request.open('GET','http://thivyak.imad.hasura-app.io/submit-name/?name=' + name,true);
           request.send(null);
 };
