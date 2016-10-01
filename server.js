@@ -96,7 +96,13 @@ var htmlTemplate = `
                 <h3>
                   Comments:
                 </h3>
-               <input type= "text" id="comments" placeholder="Add Comments">
+               <input type= "text" id="comment" placeholder="Add Comments">
+                   <ul>
+                       <li>comment1</li>
+                       <li>comment2</li>
+                       <li>comment3</li>
+                       <li>comment4</li>
+                   </ul>
                <br/><br/>
                <input type="submit" id="submit-comment" value="Submit">
             </div>
