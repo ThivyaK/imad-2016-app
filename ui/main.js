@@ -16,5 +16,18 @@ coder.style.marginLeft = marginLeft + 'px';
 }
 imgElement.onclick = function() {
     var interval = setInterval(moveRight,50);
-}
+};
+
+var button = document.getElementById('counterbtn');
+button.onclick = function() {
+  // Make a request to the server
+  
+  //process the request and get the response
+  
+  //Render the response
+  var counter = 0;
+  counter = counter + 1;
+  
+  
+};
 
