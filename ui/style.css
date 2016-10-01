@@ -30,7 +30,7 @@ body {
     padding-right:20px;
     padding-left:20px; 
 }
-nav-ul {
+ul.nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -44,12 +44,12 @@ nav-ul {
     text-align:center;
 }
 
-    nav-ul li {
+     li {
         margin:0px;
         float: left;
 }
 
-    nav-ul li a {
+    li a {
         display: block;
         color:  #FFFFFF;
         text-align: center;
@@ -59,7 +59,7 @@ nav-ul {
         background-color: #000000;
 }
 
-    nav-ul li a:hover {
+    li a:hover {
        color: #FFFFFF;
        background-color: #a9a9a9;
 }
