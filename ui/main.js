@@ -42,9 +42,7 @@ button.onclick = function() {
         //Not done yet
     }
     
-    
-      
-  };
+   };
   
   //Make the request to the counter endpoint
   request.open('GET','http://thivyak.imad.hasura-app.io/counter',true);
