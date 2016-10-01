@@ -18,8 +18,8 @@ imgElement.onclick = function() {
     var interval = setInterval(moveRight,50);
 };
 
-//counter
-
+//counter code
+var counter = 0;
 var button = document.getElementById('counterbtn');
 button.onclick = function() {
   // Make a request to the counter endpoint
