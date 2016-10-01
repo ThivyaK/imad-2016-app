@@ -38,9 +38,11 @@ button.onclick = function() {
             var span = document.getElementById('count');
             span.innerHTML = counterResponse.toString();
         }
+        
+        //Not done yet
     }
     
-    //Not done yet
+    
       
   };
   
