@@ -18,16 +18,18 @@ imgElement.onclick = function() {
     var interval = setInterval(moveRight,50);
 };
 
+//counter
+
 var button = document.getElementById('counterbtn');
 button.onclick = function() {
-  // Make a request to the server
+  // Make a request to the counter endpoint
   
-  //process the request and get the response
+  //capture the response & store it in a variable
   
-  //Render the response
-  var counter = 0;
+  //Render the variable in the correct span
   counter = counter + 1;
-  
+  var span = document.getElementById('count');
+  span.innerHTML = counter.toString();
   
 };
 
