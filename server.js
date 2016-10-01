@@ -91,6 +91,11 @@ var htmlTemplate = `
                 ${content}
                 
             </div>
+            <div class="footer">
+               <input type= "text" id="comments" placeholder="Add Comments">
+               <br/>
+               <input type="submit" id="submit-comment" value="Submit">
+            </div>
         </div>
     </body>
 </html>
