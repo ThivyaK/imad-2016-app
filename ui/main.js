@@ -89,7 +89,7 @@ submit.onclick = function() {
 //Submit comment code
 var commentInput = document.getElementById('comment');
 var comment = commentInput.value;
-var submit = document.getElementById('submit-comment');
+var submitcomment = document.getElementById('submit-comment');
 submit.onclick = function() {
   //Make a request to the server and send the comments
   
