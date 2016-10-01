@@ -47,8 +47,23 @@ button.onclick = function() {
   //Make the request to the counter endpoint
   request.open('GET','http://thivyak.imad.hasura-app.io/counter',true);
   request.send(null);
-  
-  
-  
 };
 
+//Submit name  code
+
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
+var submitbtn = document.getElementById('submit');
+submit.onclick = function() {
+  // Make a request to the server and send the name
+  
+  //capture the list of names and render it as a list
+  var names = [name1,name2,name3]
+  var list = "";
+  for(i=0,i<names.length,i++){
+      list+= '<li>' + names + '</li>';
+  }
+  
+  var ul = document.getElementById('ul-list');
+  ul.innerHTML = list;
+};
