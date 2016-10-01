@@ -18,18 +18,37 @@ imgElement.onclick = function() {
     var interval = setInterval(moveRight,50);
 };
 
+
 //counter code
-var counter = 0;
+
 var button = document.getElementById('counterbtn');
 button.onclick = function() {
-  // Make a request to the counter endpoint
+  // create a request object
+  
+  var request = new XMLHttpRequest();
   
   //capture the response & store it in a variable
+  request.onreadystatechange = function() {
+    if(request.readyState === XMLHttpRequest.DONE )
+    //Take some action
+    {
+        if(request.state === 200)
+        {
+            var counterResponse = request.responseText;
+            var span = document.getElementById('count');
+            span.innerHTML = counterResponse.toString();
+        }
+    }
+    
+    //Not done yet
+      
+  };
   
-  //Render the variable in the correct span
-  counter = counter + 1;
-  var span = document.getElementById('count');
-  span.innerHTML = counter.toString();
+  //Make the request to the counter endpoint
+  request.open('GET','http://thivyak.imad.hasura-app.io/counter',true);
+  request.send(null);
+  
+  
   
 };
 
