@@ -95,11 +95,10 @@ var htmlTemplate = `
             <hr/>
             <div class="footer">
                 <h3>
-                  Comments:
+                  Post your comments:
                 </h3>
-               <input type= "textarea" id="comment" placeholder="Add Comments">
-                   <ul id="comment-list">
-                      
+               <textarea id="comment" placeholder="Add Comments">
+                   <ul id="comment-list"/>
                    </ul>
                <br/><br/>
                <input type="submit" id="submitbtn" value="Submit">
