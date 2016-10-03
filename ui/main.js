@@ -52,7 +52,7 @@ button.onclick = function() {
 
 //Submit name  code
 var submitbtn = document.getElementById('submit');
-submit.onclick = function() {
+submitbtn.onclick = function() {
       // Make a request to the server and send the name
        var request = new XMLHttpRequest();
       
@@ -90,7 +90,7 @@ submit.onclick = function() {
 var commentInput = document.getElementById('comment');
 var comment = commentInput.value;
 var submitcomment = document.getElementById('submit-comment');
-submit.onclick = function() {
+submitcomment.onclick = function() {
   //Make a request to the server and send the comments
   
   //capture the comment list and store it in a variable
