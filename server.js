@@ -67,7 +67,6 @@ var title = data.title;
 var heading = data.heading;
 var date = data.date;
 var content = data.content;
-var comments = data.comments;
 var htmlTemplate = `
 <html>
     <head>
@@ -100,7 +99,7 @@ var htmlTemplate = `
                 </h3>
                <input type= "textarea" id="comment" placeholder="Add Comments">
                    <ul id="comment-list">
-                      ${comments} 
+                      
                    </ul>
                <br/><br/>
                <input type="submit" id="submitbtn" value="Submit">
@@ -129,6 +128,13 @@ app.get('/submit-name',function(req,res){ //URL:/submit-name?name=xxx
    var name = req.query.name;
    names.push(name);
    res.send(JSON.stringify(names));
+});
+
+var comments = [];
+app.get('/articleName',function(req,res){ //URL:/articleName/?comment=xxx
+   var comment = req.query.comment;
+   comments.push(comment);
+   res.send(JSON.stringify(comments));
 });
 
 app.get('/:articleName', function(req, res){
