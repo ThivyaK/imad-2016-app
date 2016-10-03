@@ -6,6 +6,28 @@ console.log('Loaded!');
 
 //element.innerHTML = 'New value !';
 
+
+
+//Submit comment code
+var commentInput = document.getElementById('comment');
+var comment = commentInput.value;
+var submitcomment = document.getElementById('submitbtn');
+submitcomment.onclick = function() {
+  //Make a request to the server and send the comments
+  
+  //capture the comment list and store it in a variable
+  var comments = ['comment1','comment2','comment3','comment4'];
+  var list="";
+  for(var i=0;i<comments.length;i++) {
+      list += '<li>' + comments[i] + '</li>';
+  }
+  
+  var ulcomment = document.getElementById('comment-list');
+  ulcomment.innerHTML = list;
+  //Make the request
+};
+
+
 //Move the image
 var imgElement = document.getElementById('coder');
 var marginLeft = 0;
