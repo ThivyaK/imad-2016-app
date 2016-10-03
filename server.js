@@ -104,7 +104,7 @@ var htmlTemplate = `
                <input type="submit" id="submitbtn" value="Submit">
             </div>
         </div>
-        <script type="text/javascript" src="../ui/articleName.js">
+        <script type="text/javascript" src="/ui/articleName.js">
         </script>
     </body>
 </html>
@@ -143,6 +143,10 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui' , 'main.js'));
+});
+
+app.get('/ui/articleName.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui' , 'articleName.js'));
 });
 
 app.get('/ui/pROFILEPIC.JPG', function (req, res) {
