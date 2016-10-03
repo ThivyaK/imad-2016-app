@@ -96,7 +96,7 @@ var htmlTemplate = `
                 <h3>
                   Comments:
                 </h3>
-               <input type= "text" id="comment" placeholder="Add Comments">
+               <input type= "textarea" id="comment" placeholder="Add Comments">
                    <ul id="comment-list">
                        
                    </ul>
