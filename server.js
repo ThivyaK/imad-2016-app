@@ -20,7 +20,7 @@ content:`
 	<p>
    		This is the content for my first article.This is the content for my first article.This is the content for my first articl. This is the content for my first article.This is the content for my first article.This is the content for my first article.
 	</p>`
-comment:
+
 	
 
 },
