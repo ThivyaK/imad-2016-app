@@ -101,7 +101,7 @@ var htmlTemplate = `
                        
                    </ul>
                <br/><br/>
-               <input type="submit" id="submit-comment" value="Submit">
+               <input type="submit" id="submitbtn" value="Submit">
             </div>
         </div>
         <script type="text/javascript" src="/ui/main.js">
