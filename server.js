@@ -97,8 +97,8 @@ var htmlTemplate = `
                 <h3>
                   Post your comments:
                 </h3>
-               <textarea id="comment" placeholder="Add Comments">
-                   <ul id="comment-list"/>
+               <textarea id="comment" placeholder="Add Comments" rows="4" cols="50"></textarea>
+                   <ul id="comment-list">
                    </ul>
                <br/><br/>
                <input type="submit" id="submitbtn" value="Submit">
