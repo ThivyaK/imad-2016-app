@@ -8,6 +8,27 @@ console.log('Loaded!');
 
 //Move the image
 
+
+//Submit comment code
+var commentInput = document.getElementById('comment');
+var comment = commentInput.value;
+var submitcomment = document.getElementById('submitbtn');
+submitcomment.onclick = function() {
+  //Make a request to the server and send the comments
+  
+  //capture the comment list and store it in a variable
+  var comments = ['comment1','comment2','comment3','comment4'];
+  var list="";
+  for(var i=0;i<comments.length;i++) {
+      list += '<li>' + comments[i] + '</li>'
+  }
+  
+  var ulcomment = document.getElementById('comment-list');
+  ulcomment.innerHTML = list;
+  //Make the request
+};
+
+
 var imgElement = document.getElementById('coder');
 var marginLeft = 0;
 function moveRight() {
@@ -86,24 +107,7 @@ submitbtn.onclick = function() {
           request.send(null);
 };
 
-//Submit comment code
-var commentInput = document.getElementById('comment');
-var comment = commentInput.value;
-var submitcomment = document.getElementById('submit-comment');
-submitcomment.onclick = function() {
-  //Make a request to the server and send the comments
-  
-  //capture the comment list and store it in a variable
-  var comments = ['comment1','comment2','comment3','comment4'];
-  var list="";
-  for(var i=0;i<comments.length;i++) {
-      list += '<li>' + comments[i] + '</li>'
-  }
-  
-  var ulcomment = document.getElementById('comment-list');
-  ulcomment.innerHTML = list;
-  //Make the request
-};
+
     
 
       
