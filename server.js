@@ -104,7 +104,7 @@ var htmlTemplate = `
                <input type="submit" id="submitbtn" value="Submit">
             </div>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
+        <script type="text/javascript" src="/ui/articleName.js">
         </script>
     </body>
 </html>
