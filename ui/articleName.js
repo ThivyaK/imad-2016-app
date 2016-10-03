@@ -29,7 +29,7 @@ submitcomment.onclick = function() {
         //Make the request
         var commentInput = document.getElementById('comment');
         var comment = commentInput.value;
-        request.open('GET','http://thivyak.imad.hasura-app.io/articleName' + comment,true);
-        request.send(null);
+        request.open('GET','http://thivyak.imad.hasura-app.io/articleName/?comment=' + comment,true);
+        request.send(comment);
         
 };
