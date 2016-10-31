@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-	background: #f6f5ee url("ui/bg.jpg");
+	background: #f6f5ee url("/ui/bg.jpg");
 	font: 14px/22px Helvetica, Sans-Serif;
 }
 
@@ -14,8 +14,8 @@ body {
 
 
 #container {
-	background: url("ui/top-bar.jpg") top repeat-x;
-	background: url("ui/top-bar.jpg") top repeat-x, url("ui/footer.jpg") bottom repeat-x;
+	background: url("/ui/top-bar.jpg") top repeat-x;
+	background: url("/ui/top-bar.jpg") top repeat-x, url("/ui/footer.jpg") bottom repeat-x;
 	padding: 0 0 31px 0;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 	#header h1 a {
 		position: absolute; top: 5px; left: 376px;display: block; width: 208px; height: 213px; 
-		background: url("ui/logo.png"); text-indent: -9999px;
+		background: url("/ui/logo.png"); text-indent: -9999px;
 	}
 		#header h1 a:hover {
 			background-position: bottom;
