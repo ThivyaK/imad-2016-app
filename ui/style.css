@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-	background: #f6f5ee url(images/bg.png);
+	background: #f6f5ee url(ui/bg.jpg);
 	font: 14px/22px Helvetica, Sans-Serif;
 }
 
