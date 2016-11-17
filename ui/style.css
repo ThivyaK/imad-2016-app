@@ -92,7 +92,7 @@ h3{
 }
 
 div.social{
-    float:left;
+    float: left;
     margin-top:20px;
 }
 
@@ -101,9 +101,13 @@ a.social{
 }
 
 div.contact{
-    float:right;
+    float: right;
     margin-right:275px;
     margin-top:20px;
+}
+
+label{
+    color:#ffffff;
 }
  
 
