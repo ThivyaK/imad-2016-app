@@ -24,12 +24,18 @@ body{
 .logo{
     float:left;
     margin-top:10px;
-    border-radius:50%;
 }
 
 nav{
     float:right;
     margin-top:26px;
+}
+
+.navbar{
+    color:#fff;
+    font-size:20px;
+    margin-left:25px;
+    text-decoration:none;
 }
 
 
