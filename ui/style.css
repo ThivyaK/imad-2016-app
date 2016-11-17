@@ -38,6 +38,10 @@ nav{
     text-decoration:none;
 }
 
+.navbar:hover{
+    text-decoration:blink;
+}
+
 
 footer{
     width:100%;
