@@ -29,12 +29,19 @@ a.social{
 
 div.contact{
     float: right;
-    margin-right:275px;
+    margin-right:200px;
     margin-top:20px;
 }
 
 label{
     color:#ffffff;
+}
+
+input.text{
+    height:20px;
+    width:250px;
+    border-radius:3px;
+    border:none;
 }
  
 
