@@ -3,7 +3,7 @@
 
 footer{
     width:100%;
-    height:400px;
+    height:450px;
     background-color:#183951;
     margin-top:500px;
 }
@@ -38,12 +38,31 @@ label{
 }
 
 input.text{
-    height:20px;
+    height:30px;
+    width:250px;
+    border-radius:3px;
+    border:none;
+}
+
+textarea.message{
+    height:100px;
     width:250px;
     border-radius:3px;
     border:none;
 }
  
+input.submit{
+    width:60px;
+    height:30px;
+    background-color:#ffffff;
+    color:#183951;
+    border-radius:3px;
+    border:none;
+}
+
+input.submit:hover{
+    text-decoration:underline;
+}
 
 
 
