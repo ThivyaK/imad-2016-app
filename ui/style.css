@@ -54,6 +54,15 @@ h1{
     color:#fff;
     text-align:center;
     clear:both;
+    padding-top:200px;
+}
+
+h2{
+    font-size:36px;
+    color:#fff;
+    text-align:center;
+    clear:both;
+    margin-top:-60px; 
 }
 
 
