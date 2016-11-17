@@ -87,9 +87,17 @@ footer{
     margin:0 auto;
 }
 
+h3{
+   color:#ffffff; 
+}
+
 div.social{
     float:left;
     margin-top:20px;
+}
+
+a.social{
+    margin-right:15px;
 }
  
 
