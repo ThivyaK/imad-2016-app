@@ -4,7 +4,7 @@ body{
 
 .main{
     height:700px;
-    background-image:url(/ui/backgroung.jpg);
+    background-image:url(/ui/background.jpg);
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
