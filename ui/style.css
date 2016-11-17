@@ -45,6 +45,17 @@ nav{
     text-decoration:underline;
 }
 
+span{
+    width:100%;
+}
+
+h1{
+    font-size:80px;
+    color:#fff;
+    text-align:center;
+    
+}
+
 
 footer{
     width:100%;
