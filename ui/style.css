@@ -10,6 +10,28 @@ body{
     background-size:cover;
 }
 
+#container{
+    height:700px;
+    width:1000px;
+    margin:0 auto;
+}
+
+.header{
+    margin-top:0;
+    width:100%;
+}
+
+.logo{
+    float:left;
+    margin-top:10px;
+    border-radius:50%;
+}
+
+nav{
+    float:right;
+    margin-top:26px;
+}
+
 
 footer{
     width:100%;
