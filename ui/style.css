@@ -4,7 +4,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 
 body {
 	background: #f6f5ee url("/ui/bg.jpg");
-	font: 14px/22px Helvetica, Sans-Serif;
+
 }
 
 @font-face {
@@ -98,6 +98,12 @@ div.social{
 
 a.social{
     margin-right:15px;
+}
+
+div.contact{
+    float:right;
+    margin-right:275px;
+    margin-top:20px;
 }
  
 
