@@ -6,7 +6,7 @@ body{
 @media screen and (min-width:1000px){
     #container{
     height:700px;
-    width:100%;
+    width:1000px;
     margin:0 auto;
 }
 }
@@ -23,7 +23,7 @@ body{
 
 .header{
     margin-top:0;
-    width:100%;
+    width:1000px;
 }
 
 .logo{
