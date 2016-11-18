@@ -31,7 +31,7 @@ submitcomment.onclick = function() {
         var commentInput = document.getElementById('comment');
         var comment = commentInput.value;
         request.open('GET','http://thivyak.imad.hasura-app.io/articlecomment/?comment' + comment,true);
-        request.send(null);
+        request.send(comment);
         
 };
 //Submit name code
