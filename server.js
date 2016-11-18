@@ -151,8 +151,8 @@ app.get('/submit-name',function(req,res){ //URL:/submit-name?name=xxx
 });
 
 var comments = [];
-app.get('/articlecomment',function(req,res){ //URL:/articleName/?comment=xxx
-   var comment = req.query.comment;
+app.get('/articles/articleName',function(req,res){ //URL:/articleName/?comment=xxx
+   var comment = req.params.comment;
    comments.push(comment);
    res.send(JSON.stringify(comments));
 });
