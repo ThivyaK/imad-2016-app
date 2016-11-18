@@ -111,6 +111,8 @@ h2{
 			padding: 10px;
 			background: #f9f9f9;
 			border: 1px solid #ddd;
+			background-image:url(/ui/pROFILEPIC.JPG);
+			border-radius:30%;
 		}
 
 		#accordion li:hover div.content{
