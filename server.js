@@ -26,6 +26,7 @@ var htmlTemplate = `
             ${title}
         </title>
          <meta name="viewport" content="width=device-width,initial-scale=1"/>
+         <link rel="shortcut icon" type="image/x-icon" href="/ui/favicon.ico">
          <link href="/ui/style.css" rel="stylesheet"/>
     </head>
     <body>
