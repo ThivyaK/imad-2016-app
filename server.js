@@ -56,7 +56,7 @@ var htmlTemplate = `
                 
             </div>
             <hr/>
-            <div class="footer">
+            <div class="comments">
                 <h3>
                   Post your comments:
                 </h3>
@@ -66,7 +66,48 @@ var htmlTemplate = `
                <br/><br/>
                <input type="submit" id="submitbtn" value="Submit">
             </div>
-        </div>
+            
+            <footer>
+            <div id="footer-container">
+            	<div class="social">
+            	    <h3>Stay Connected</h3>
+            	    
+            	    <a class="social LinkedIn" href="https://in.linkedin.com/in/thivya-kanagendran-9b16185b">
+            	    <img src="/ui/Linkedin.png"/>
+            	    </a>
+            	    
+            	    <a class="social Facebook" href="https://www.facebook.com/thivya.kanagendran">
+            	    <img src="/ui/fb.png"/>
+            	    </a>
+            	    
+            	</div>
+            	
+            	<div class="contact">
+            	    <h3>Contact Us</h3>
+            	    <form class="contact" name="form" method="post">
+            	        <label for="name">Name</label><br>
+            	        <input class="text" name="name" type="text" />
+            	        <br><br>
+            	        
+            	        <label for="email">Email</label><br>
+            	        <input class="text" name="email" type="text" />
+            	        <br><br>
+            	        
+            	        <label for="message">Message</label><br>
+            	        <textarea class="message" name="message"></textarea>
+            	        <br><br>
+            	        
+            	        <input class="submit" name="submit" type="submit" value="Submit" />
+            	        
+            	    </form>
+            	</div>
+            	
+            	<div class="copyright">
+            	    <h4>Copyright © Thivya Kanagendran</h4>
+            	</div>
+            </div>
+        </footer>
+            
         <script type="text/javascript" src="/ui/articleName.js">
         </script>
     </body>
