@@ -86,20 +86,36 @@ h2{
     color:#000;
 }
 
-a {
-    text-decoration:none;
-    color:#000;
+#wrap{
+	 margin: 100px auto;
+	 width: 600px;
+     line-height:1.6em;
 }
 
-li{
-    list-style-type:none;
-    color:#000;
-}
+#accordion{
+			width: 600px;
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
 
-.about-menu{
-    float:left;
-    display:block;
-}
+		#accordion h2{
+			font-size: 12pt;
+			margin: 0px;
+			padding: 10px;
+			background: #ccc;
+			border-bottom: 1px solid #fff;
+		}
+		#accordion li div.content{
+			display: none;
+			padding: 10px;
+			background: #f9f9f9;
+			border: 1px solid #ddd;
+		}
+
+		#accordion li:hover div.content{
+			display: inherit;
+		}
 
 footer{
     width:100%;
