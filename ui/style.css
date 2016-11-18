@@ -23,7 +23,7 @@ body{
 
 .header{
     margin-top:0;
-    width:100%;
+    width:1000px;
 }
 
 .logo{
@@ -83,6 +83,7 @@ h2{
 
 .about{
     padding-top:100px;
+    color:#000;
 }
 
 
