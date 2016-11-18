@@ -30,8 +30,8 @@ submitcomment.onclick = function() {
         //Make the request
         var commentInput = document.getElementById('comment');
         var comment = commentInput.value;
-        request.open('GET','http://thivyak.imad.hasura-app.io/articleName/comment' + comment,true);
-        request.send(comment);
+        request.open('GET','http://thivyak.imad.hasura-app.io/articlecomment/?comment' + comment,true);
+        request.send(null);
         
 };
 //Submit name code
