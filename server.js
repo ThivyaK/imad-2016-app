@@ -20,20 +20,30 @@ var heading = data.heading;
 var date = data.date;
 var content = data.content;
 var htmlTemplate = `
-<html>
+<!doctype html>
     <head>
-        <title>
-            ${title}
-        </title>
-         <meta name="viewport" content="width=device-width,initial-scale=1"/>
-         <link rel="shortcut icon" type="image/x-icon" href="/ui/favicon.ico">
-         <link href="/ui/style.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>ThivyaKanagendran - Personal Blog</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/ui/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i" rel="stylesheet">
+        <link href="/ui/style.css" rel="stylesheet" />
+
     </head>
     <body>
-        <div class="container">
-            <div>
-                <a href="/">Home</a>
+        <div id="head">
+          <div class="header">
+                    <img class="logo" src="/ui/logo.png" />
+                    
+                    <nav>
+                       <a class="navbar" href="/">Home</a>
+                       <a class="navbar" href="/about">About</a>
+                       <a class="navbar" href="/articles/article-three">Articles</a>
+                    </nav>
             </div>
+                <span>
+                    <h1 class="about">Articles</h1>
+                </span>
+        </div>
             <hr/>
             <h3>
                 ${heading}
