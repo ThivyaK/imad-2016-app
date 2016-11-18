@@ -134,8 +134,8 @@ app.get('/ui/articleName.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui' , 'articleName.js'));
 });
 
-app.get('/ui/about.JPG', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'about.JPG'));
+app.get('/ui/about.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'about.jpg'));
 });
 
 app.get('/ui/Linkedin.png', function (req, res) {
