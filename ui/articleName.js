@@ -22,7 +22,7 @@ submitcomment.onclick = function() {
               }
               
               var ulcomment = document.getElementById('comment-list');
-              ul.innerHTML = list;
+              ulcomment.innerHTML = list;
             }
             //Not done
         }
