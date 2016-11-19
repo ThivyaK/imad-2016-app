@@ -137,7 +137,7 @@ function hash(input,salt)
 {
     //how do we create a hash
     var hashed = crypto.pbkdf2Sync(input,salt,10000,512,'sha512');
-    return hashed.toString('hex');
+    return ["pbkdf2",10000,salt,hashed.toString('hex')].join('$');
 }
 
 app.get('/hash/:input',function(req,res) {
@@ -153,15 +153,37 @@ app.post('/create-user',function(req,res){
     var password = req.body.password;
     var salt = crypto.randomBytes(128).toString('hex');
     var dbString = hash(password,salt);
-    pool.query('INSERT INTO "user" (username,password) values ($1,$2), [username.dbString], function(err, result){
+    pool.query('INSERT INTO "user" (username,password) values ($1,$2)', [username,dbString], function(err, result){
         if(err){
             res.status(500).send(err.toString());
         } else {
-            res.send("User created Successfully" + username));
+            res.send('User created Successfully:' + username);
           }
     });
+});
+
+
+app.post('/login',function(req,res){
+    var username = req.body.username;
+    var password = req.body.password;
     
-}
+    pool.query('SELECT * from "user" username = $1',[username], function(err, result){
+        if(err){
+            res.status(500).send(err.toString());
+        } else {
+            if(result.rows.length===0)
+            {
+                res.send(403).send('username/password is invalid');
+            }
+            else{
+                //Match the password
+                var dbString = result.rows[0].password;
+                var salt = dbString.split('$')[2];
+            }
+          }
+    });
+});
+
 
 var pool = new Pool(config);
 app.get('/test-db', function(req, res){
