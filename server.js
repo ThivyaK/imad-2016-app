@@ -179,6 +179,15 @@ app.post('/login',function(req,res){
                 //Match the password
                 var dbString = result.rows[0].password;
                 var salt = dbString.split('$')[2];
+                var hashedPassword = hash(password,salt); //creating a hash based on the password submitted and orginial salt.
+                if(hashedPassword===dbString)
+                {
+                      res.send('Right Credentials!');
+                }
+                else
+                {
+                    res.send(403).send('username/password is invalid');
+                }
             }
           }
     });
