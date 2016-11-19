@@ -62,8 +62,6 @@ var submitbtn = document.getElementById('submit');
         {
             if(request.status === 200)
             {
-              //capture the list of names and render it as a list
-              console.log('user logged in');
               alert('Logged in successfully');
             }
               else if(request.status === 403){
