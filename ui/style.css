@@ -78,6 +78,7 @@ h2{
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
+    background-attachment:fixed;
     
 }
 
@@ -116,6 +117,8 @@ h2{
 		#accordion li:hover div.content{
 			display: inherit;
 		}
+		
+/*FOOTER SECTION*/		
 
 footer{
     width:100%;
@@ -124,7 +127,7 @@ footer{
     margin-top:500px;
 }
 
-#footer-container{
+#foot{
     width:1000px;
     height:100%;
     margin:0 auto;
@@ -198,10 +201,25 @@ div.copyright{
  }
 
 .profile-pic{
+            width:250px;
+            height:200px;
             border-radius: 50%;
             border-width: 5px;
             border-style: solid;
             border-color: #09aacc;
+            margin-top:46px;
+}
+
+.padding{
+    padding-left:46px;
+}
+
+
+#login_area{
+    float: left;
+    background-color:#e0e0eb;
+    /*margin-right:200px;*/
+    /*margin-top:20px;*/
 }
 
 
