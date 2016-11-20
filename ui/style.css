@@ -201,8 +201,8 @@ div.copyright{
  }
 
 .profile-pic{
-            width:250px;
-            height:200px;
+            width:50px;
+            height:100px;
             border-radius: 50%;
             border-width: 5px;
             border-style: solid;
@@ -217,7 +217,7 @@ div.copyright{
 
 #login_area{
     float: left;
-    background-color:#e0e0eb;
+    /*background-color:#e0e0eb;
     /*margin-right:200px;*/
     /*margin-top:20px;*/
 }
