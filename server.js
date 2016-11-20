@@ -64,16 +64,15 @@ var htmlTemplate = `
                 
             </div>
             <hr/>
-            <div class="comments">
-                <h3>
-                  Post your comments:
-                </h3>
-               <textarea id="comment" placeholder="Add Comments" rows="4" cols="50"></textarea>
-                   <ul id="comment-list" class="">
-                   </ul>
-               <br/><br/>
-               <input type="submit" id="submitbtn" value="Submit">
-            </div>
+            
+            <h4>Comments</h4>
+            
+              <div id="comment_form">
+              </div>
+              
+              <div id="comments">
+                <center>Loading comments...</center>
+              </div>
             
             <footer>
             <div id="footer-container">
