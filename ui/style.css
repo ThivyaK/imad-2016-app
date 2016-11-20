@@ -197,6 +197,12 @@ div.copyright{
      border-bottom: 1px solid #ccc;
  }
 
+.profile-pic{
+            border-radius: 50%;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #09aacc;
+}
 
 
 
