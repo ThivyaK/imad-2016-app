@@ -1,3 +1,15 @@
+//Move the image
+//var imgElement = document.getElementById('coder');
+//var marginLeft = 0;
+//function moveRight() {
+//marginLeft = marginLeft + 1;
+//coder.style.marginLeft = marginLeft + 'px';
+//}
+//imgElement.onclick = function() {
+  //  var interval = setInterval(moveRight,50);
+//};
+
+
 function loadLoginForm () {
     var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
@@ -136,11 +148,6 @@ var submitbtn = document.getElementById('submit');
           request.send(JSON.stringify({username: username, password: password}));  
           submit.value = 'Logging in...';
 };
-
-
-
-
-
 
 //console.log('Loaded!');
 
