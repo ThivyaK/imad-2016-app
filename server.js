@@ -115,8 +115,7 @@ var htmlTemplate = `
             </div>
         </footer>
             
-        <script type="text/javascript" src="/ui/articleName.js">
-        </script>
+        <script type="text/javascript" src="/ui/articleName.js"></script>
     </body>
 </html>
  `;
