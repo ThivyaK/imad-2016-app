@@ -278,12 +278,12 @@ app.get('/ui/about.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.jpg'));
 });
 
-app.get('/ui/Linkedin.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Linkedin.png'));
+app.get('/ui/icon-linkedin.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'icon-linkedin.png'));
 });
 
-app.get('/ui/fb.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'fb.png'));
+app.get('/ui/fbs.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'fbs.png'));
 });
 
 app.get('/ui/bground.jpg', function (req, res) {
