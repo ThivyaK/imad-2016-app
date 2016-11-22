@@ -18,6 +18,7 @@ function loadLoginForm () {
         <input class="text" type="password" id="password" />
         <br/><br/>
         <input class="submit" type="submit" id="login_btn" value="Login" />
+        <br/>
         <input class="submit" type="submit" id="register_btn" value="Register" />
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
