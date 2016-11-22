@@ -5,17 +5,17 @@ body{
 
 @media screen and (min-width:1000px){
     #container{
-    height:700px;
+    height:1000px;
     width:1000px;
     margin:0 auto;
 }
 }
 
 .main{
-    height:700px;
+    height:1000px;
     background-image:url(/ui/bground.jpg);
     background-position:center center;
-    background-repeat:repeat;
+    background-repeat:no-repeat;
     background-size:cover;
 }
 
@@ -222,7 +222,6 @@ div.copyright{
 #login_area{
     float: left;
     margin-top:150px;
-    background-color:#b6bbc4;
 }
  .content p {
     width: 100%;
