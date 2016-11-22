@@ -114,7 +114,7 @@ loadArticles();
 
 
 //Submit username/password to login
-var submitbtn = document.getElementById('submit');
+var submitbtn = document.getElementById('login_btn');
      submitbtn.onclick = function() {
       // Make a request to the server and send the name
        var request = new XMLHttpRequest();
