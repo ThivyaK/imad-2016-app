@@ -133,7 +133,7 @@ footer{
 }
 
 h3{
-   color:#fff; 
+   color:#000; 
 }
 
 div.social{
@@ -170,8 +170,8 @@ textarea.message{
 }
  
 input.submit{
-    width:65px;
-    height:35px;
+    width:60px;
+    height:40px;
     background-color:#ffffff;
     color:#183951;
     border-radius:3px;
@@ -221,13 +221,12 @@ div.copyright{
 
 #login_area{
     font-family: 'Delius Unicase', cursive;
-    color:#fff;
     width:700px;
     margin: 0 auto;
     text-align:center;
-    float: left;
     margin-top:150px;
 }
+
  .content p {
     width: 100%;
     display: inline-block;
@@ -242,12 +241,6 @@ div.copyright{
     font-family: sans-serif;
 }
 
-hr{
-    color: #000;
-    width:90%;
-    background-color: #000;
-    height: 2px;
-}
 #about-tag h3:after{
     content: ' ';
     max-width: 650px;
