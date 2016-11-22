@@ -22,6 +22,7 @@ function loadLoginForm () {
     document.getElementById('login_area').innerHTML = loginHtml;
     
     
+    //register username/password
     var register = document.getElementById('register_btn');
     register.onclick = function () {
         // Create a request object
@@ -124,15 +125,15 @@ var submitbtn = document.getElementById('login_btn');
           if (request.readyState === XMLHttpRequest.DONE) {
               // Take some action
               if (request.status === 200) {
-                  submit.value = 'Success!';
+                  submitbtn.value = 'Success!';
               } else if (request.status === 403) {
-                  submit.value = 'Invalid credentials. Try again?';
+                  submitbtn.value = 'Invalid credentials. Try again?';
               } else if (request.status === 500) {
                   alert('Something went wrong on the server');
-                  submit.value = 'Login';
+                  submitbtn.value = 'Login';
               } else {
                   alert('Something went wrong on the server');
-                  submit.value = 'Login';
+                  submitbtn.value = 'Login';
               }
               loadLogin();
           }  
@@ -143,10 +144,10 @@ var submitbtn = document.getElementById('login_btn');
           var password = document.getElementById('password').value;
           console.log(username);
           console.log(password);
-          request.open('POST','http://thivyak.imad.hasura-app.io/login',true);
+          request.open('POST', '/login',true);
           request.setRequestHeader('Content-Type', 'application/json');
           request.send(JSON.stringify({username: username, password: password}));  
-          submit.value = 'Logging in...';
+          submitbtn.value = 'Logging in...';
 };
 
 
