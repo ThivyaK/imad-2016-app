@@ -133,7 +133,7 @@ footer{
 }
 
 h3{
-   color:#000; 
+   color:#fff; 
 }
 
 div.social{
@@ -170,8 +170,8 @@ textarea.message{
 }
  
 input.submit{
-    width:60px;
-    height:30px;
+    width:65px;
+    height:35px;
     background-color:#ffffff;
     color:#183951;
     border-radius:3px;
@@ -220,6 +220,7 @@ div.copyright{
 
 
 #login_area{
+    font-family: 'Delius Unicase', cursive;
     color:#fff;
     width:150px;
     margin: 0 auto;
