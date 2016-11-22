@@ -110,7 +110,7 @@ var htmlTemplate = `
             	</div>
             	
             	<div class="copyright">
-            	    <h4>Copyright © Thivya Kanagendran</h4>
+            	    <h4>Copyright © 2016|Thivya Kanagendran</h4>
             	</div>
             </div>
         </footer>
