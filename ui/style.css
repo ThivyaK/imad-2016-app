@@ -170,8 +170,8 @@ textarea.message{
 }
  
 input.submit{
-    width:60px;
-    height:40px;
+    width:80px;
+    height:30px;
     background-color:#ffffff;
     color:#183951;
     border-radius:3px;
@@ -224,7 +224,7 @@ div.copyright{
     width:700px;
     margin: 0 auto;
     text-align:center;
-    margin-top:150px;
+    margin-top:115px;
 }
 
  .content p {
@@ -250,6 +250,12 @@ div.copyright{
     margin: 20px 0 30px;
 }
 
+.articles{
+    font-color:#000;
+    margin-top:100px;
+    overflow:hidden;
+    
+}
 
 
 
