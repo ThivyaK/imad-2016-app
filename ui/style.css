@@ -236,10 +236,17 @@ p.socialmedia {
 }
 
 .about-tag{
-    float:right;
-    margin-top:20px;
-    
-}    
+    float: right;
+    margin-top: 70px;
+    margin-right: 120px;
+    font-family: sans-serif;
+}
+
+hr{
+    color: #000;
+    background-color: #000;
+    height: 2px;
+}
 
 
 
