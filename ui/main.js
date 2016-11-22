@@ -149,6 +149,7 @@ var submitbtn = document.getElementById('login_btn');
           submit.value = 'Logging in...';
 };
 
+
 //console.log('Loaded!');
 
 //change the value of main-text div
