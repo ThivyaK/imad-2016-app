@@ -201,15 +201,28 @@ div.copyright{
  }
 
 .profile-pic{
-            width:250px;
-            height:200px;
-            border-radius: 50%;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #09aacc;
-            margin-top:46px;
-            display:block;
-            overflow: hidden;
+            /*width:250px;*/
+            /*height:200px;*/
+            /*border-radius: 50%;*/
+            /*border-width: 5px;*/
+            /*border-style: solid;*/
+            /*border-color: #09aacc;*/
+            /*margin-top:46px;*/
+            /*display:block;*/
+            /*overflow: hidden;*/
+            
+            
+          display: inline-block;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          
+          background-image: url('/ui/pROFILEPIC.JPG');
+            
+            
 }
 
 .profile-pic img {
