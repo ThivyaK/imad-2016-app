@@ -238,13 +238,13 @@ p.socialmedia {
 .about-tag{
     float: right;
     margin-top: 70px;
-    margin-right: 200px;
+    margin-right: 300px;
     font-family: sans-serif;
 }
 
 hr{
     color: #000;
-    width:50%;
+    width:90%%;
     background-color: #000;
     height: 2px;
 }
