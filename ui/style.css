@@ -212,6 +212,10 @@ div.copyright{
             overflow: hidden;
 }
 
+.profile-pic img {
+            width: 45px;
+        }
+
 .padding{
     padding-left:46px;
 }
