@@ -15,7 +15,7 @@ body{
     height:700px;
     background-image:url(/ui/bground.jpg);
     background-position:center center;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size:cover;
 }
 
