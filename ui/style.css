@@ -87,7 +87,7 @@ h2{
 
 #about-accordian{
 	 margin: 100px auto;
-	 max-width: 75%;
+	 max-width: 95%;
      line-height:1.6em;
 }
 
@@ -102,7 +102,7 @@ h2{
 			font-size: 12pt;
 			margin: 0px;
 			padding: 10px;
-			background: #000;
+			background: #BDBDBD;
 			border-bottom: 1px solid #fff;
 		}
 		#accordion li div.content{
