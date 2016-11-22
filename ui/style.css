@@ -208,6 +208,8 @@ div.copyright{
             border-style: solid;
             border-color: #09aacc;
             margin-top:46px;
+            display:block;
+            overflow: hidden;
 }
 
 .padding{
