@@ -243,8 +243,7 @@ hr{
     background-color: #000;
     height: 2px;
 }
-
-.about-tag h3:after{
+#about-tag h3:after{
     content: ' ';
     max-width: 650px;
     border-top: 2px solid #231F20;
@@ -252,6 +251,7 @@ hr{
     display: block;
     margin: 20px 0 30px;
 }
+
 
 
 
