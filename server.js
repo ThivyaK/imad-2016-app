@@ -361,8 +361,8 @@ app.get('/ui/logo.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'logo.png'));
 });
 
-app.get('/ui/Thivya_K_photo.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Thivya_K_photo.jpg'));
+app.get('/ui/pROFILEPIC.JPG', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'pROFILEPIC.JPG'));
 });
 
 app.get('/ui/favicon.ico', function (req, res) {
