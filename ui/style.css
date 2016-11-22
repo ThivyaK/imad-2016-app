@@ -252,7 +252,7 @@ hr{
 
 h3:after{
     content: ' ';
-    max-width: 485px;
+    max-width: 650px;
     border-top: 2px solid #231F20;
     height: 1px;
     display: block;
