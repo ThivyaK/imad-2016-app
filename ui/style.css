@@ -223,8 +223,15 @@ div.copyright{
     margin-top:150px;
     background-color:#b6bbc4;
 }
+.page p {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
 
-
+p.socialmedia {
+    margin-top: 15px;
+    font-size: 2em;
 
 
 
