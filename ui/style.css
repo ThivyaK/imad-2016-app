@@ -221,6 +221,8 @@ div.copyright{
 
 #login_area{
     color:#fff;
+    width:150px;
+    margin: 0 auto;
     text-align:center;
     float: left;
     margin-top:150px;
