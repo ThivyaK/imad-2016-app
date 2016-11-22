@@ -31,6 +31,7 @@ var htmlTemplate = `
 <!doctype html>
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>ThivyaKanagendran - Personal Blog</title>
         <link rel="shortcut icon" type="image/x-icon" href="/ui/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i" rel="stylesheet">
@@ -110,7 +111,7 @@ var htmlTemplate = `
             	</div>
             	
             	<div class="copyright">
-            	    <h4>Copyright © 2016|Thivya Kanagendran</h4>
+            	    <h4>Copyright © 2016 | Thivya Kanagendran</h4>
             	</div>
             </div>
         </footer>
