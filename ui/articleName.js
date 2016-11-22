@@ -102,6 +102,7 @@ loadComments();
 
 
 
+
 // //Submit comment code
 
 // var submitcomment = document.getElementById('submitbtn');
