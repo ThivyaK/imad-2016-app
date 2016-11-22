@@ -232,7 +232,17 @@ div.copyright{
 p.socialmedia {
     margin-top: 15px;
     font-size: 2em;
+}
 
+#about-tag.h3{
+    color:#000;
+    }
+
+#about-tag{
+    float:right;
+    margin-top:20px;
+    
+}    
 
 
 
