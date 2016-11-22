@@ -201,33 +201,19 @@ div.copyright{
  }
 
 .profile-pic{
-            /*width:250px;*/
-            /*height:200px;*/
-            /*border-radius: 50%;*/
-            /*border-width: 5px;*/
-            /*border-style: solid;*/
-            /*border-color: #09aacc;*/
-            /*margin-top:46px;*/
-            /*display:block;*/
-            /*overflow: hidden;*/
-            
-            
           display: inline-block;
-          width: 150px;
-          height: 150px;
+          width: 300px;
+          height: 300px;
+          margin-top:46px;
+          border-width: 5px;
+          border-style: solid;
+          border-color: #29313d;
           border-radius: 50%;
           background-repeat: no-repeat;
           background-position: center center;
           background-size: cover;
-          
           background-image: url('/ui/pROFILEPIC.JPG');
-            
-            
-}
-
-.profile-pic img {
-            width: 45px;
-        }
+    }
 
 .padding{
     padding-left:46px;
@@ -236,9 +222,8 @@ div.copyright{
 
 #login_area{
     float: left;
-    background-color:#e0e0eb;
-    /*margin-right:200px;*/
-    /*margin-top:20px;*/
+    margin-top:150px;
+    background-color:#b6bbc4;
 }
 
 
