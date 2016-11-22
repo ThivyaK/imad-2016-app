@@ -115,6 +115,7 @@ loadArticles();
 
 
 //Submit username/password to login
+window.onload = function(){
 var submitbtn = document.getElementById('login_btn');
      submitbtn.onclick = function() {
       // Make a request to the server and send the name
@@ -148,6 +149,7 @@ var submitbtn = document.getElementById('login_btn');
           request.setRequestHeader('Content-Type', 'application/json');
           request.send(JSON.stringify({username: username, password: password}));  
           submitbtn.value = 'Logging in...';
+};
 };
 
 
