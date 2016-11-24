@@ -131,10 +131,10 @@ h2{
 }
 
 .footer a {
-    /*color: #70726F;*/
+    color: #70726F;
     font-size: 20px;
-    /*padding: 10px;*/
-    /*border-right: 1px solid #70726F;*/
+    padding: 10px;
+    border-right: 1px solid #70726F;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
