@@ -46,9 +46,10 @@ var htmlTemplate = `
                     <img class="logo" src="/ui/logo.png" />
                     
                     <nav>
-                       <a class="navbar" href="/">Home</a>
-                       <a class="navbar" href="/about">About</a>
-                       <a class="navbar" href="/articles/article-three">Articles</a>
+                       <a class="navbar" href="/">HOME</a>
+                       <a class="navbar" href="/about">ABOUT</a>
+                       <a class="navbar" href="/articles/article-three">ARTICLES</a>
+                       <a class="navbar" href="/contact">CONTACT</a>
                     </nav>
             </div>
                 <span>
@@ -108,6 +109,10 @@ app.get('/', function (req, res) {
 
 app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
+});
+
+app.get('/contact', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 
 function hash(input,salt)
