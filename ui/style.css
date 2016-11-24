@@ -134,9 +134,10 @@ h2{
 
 div.copyright{
     color:#d7dfed;
+    text-align:center;
 }
 div.social{
-    padding-right:25px;
+    padding-right:100px;
 }
 
 .footer a:hover {
