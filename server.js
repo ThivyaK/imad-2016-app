@@ -75,44 +75,15 @@ var htmlTemplate = `
                 <center>Loading comments...</center>
               </div>
             
-            <footer>
-            <div id="footer-container">
-            	<div class="social">
-            	    <h3>Stay Connected</h3>
-            	    
-            	    <a class="social LinkedIn" href="https://in.linkedin.com/in/thivya-kanagendran-9b16185b">
-            	    <img src="/ui/Linkedin.png"/>
-            	    </a>
-            	    
-            	    <a class="social Facebook" href="https://www.facebook.com/thivya.kanagendran">
-            	    <img src="/ui/fb.png"/>
-            	    </a>
-            	    
-            	</div>
-            	
-            	<div class="contact">
-            	    <h3>Contact Us</h3>
-            	    <form class="contact" name="form" method="post">
-            	        <label for="name">Name</label><br>
-            	        <input class="text" name="name" type="text" />
-            	        <br><br>
-            	        
-            	        <label for="email">Email</label><br>
-            	        <input class="text" name="email" type="text" />
-            	        <br><br>
-            	        
-            	        <label for="message">Message</label><br>
-            	        <textarea class="message" name="message"></textarea>
-            	        <br><br>
-            	        
-            	        <input class="submit" name="submit" type="submit" value="Submit" />
-            	        
-            	    </form>
-            	</div>
-            	
-            	<div class="copyright">
-            	    <h4>Copyright © 2016 | Thivya Kanagendran</h4>
-            	</div>
+            <footer class="footer">
+            <div class="social">
+                <a href="https://www.facebook.com/thivya.kanagendran"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://in.linkedin.com/in/thivya-kanagendran-9b16185b"><i class="fa fa-linkedin-square" aria-hidden="true">
+                </i></a>
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </div>   
+            <div class="copyright">
+                <p>Copyright © 2016|Thivya Kanagendran</p>
             </div>
         </footer>
             
