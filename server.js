@@ -30,12 +30,14 @@ var content = data.content;
 var htmlTemplate = `
 <!doctype html>
     <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ThivyaKanagendran - Personal Blog</title>
         <link rel="shortcut icon" type="image/x-icon" href="/ui/favicon.ico">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Delius+Unicase:700" rel="stylesheet">
         <link href="/ui/style.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/57e7ff26f3.js"></script>
 
     </head>
     <body>
