@@ -132,9 +132,12 @@ h2{
     padding: 5px;
 }
 
-/*.footer a:first-child {*/
-/*    border-left: 1px solid #70726F;*/
-/*}*/
+div.copyright{
+    color:#d7dfed;
+}
+div.social{
+    padding-right:25px;
+}
 
 .footer a:hover {
     color: #d7dfed;
