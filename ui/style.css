@@ -122,20 +122,22 @@ h2{
 .footer {
     background: #0c1215;
     padding: 10px 0;
+    color:inherit;
+    text-decoration:none;
 }
 
-.footer a {
-    color: #70726F;
-    font-size: 20px;
-    padding: 10px;
-    border-right: 1px solid #70726F;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-}
+/*.footer a {*/
+/*    color: #70726F;*/
+/*    font-size: 20px;*/
+/*    padding: 10px;*/
+/*    border-right: 1px solid #70726F;*/
+/*    -webkit-transition: all .5s ease;*/
+/*    transition: all .5s ease;*/
+/*}*/
 
-.footer a:first-child {
-    border-left: 1px solid #70726F;
-}
+/*.footer a:first-child {*/
+/*    border-left: 1px solid #70726F;*/
+/*}*/
 
 .footer a:hover {
     color: white;
