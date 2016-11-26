@@ -13,7 +13,7 @@ body{
 }
 
 .main{
-    height:1000px;
+    height:400px;
     background-image:url(/ui/bground.jpg);
     background-position:center center;
     background-repeat:no-repeat;
