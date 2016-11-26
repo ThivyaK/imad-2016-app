@@ -290,6 +290,14 @@ p {
 .contactrow{
     margin-top:30px;
 }
+
+.tweet{
+    margin-top:100px;
+    
+}
+.fb{
+    vertical-align:middle;
+}
 .fa-stack {
     position: relative;
     display: inline-block;
