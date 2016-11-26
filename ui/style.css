@@ -120,6 +120,7 @@ h2{
 /*FOOTER SECTION*/	
 
 .footer {
+    margin-top:500px;
     background: #0c1215;
     padding: 10px 0;
     text-align:center;
@@ -240,16 +241,12 @@ input.submit:hover{
     margin: 20px 0 30px;
 }
 
-.articles{
-    font-color:#000;
-    margin-top:100px;
-    overflow:hidden;
+.div articles-container{
+    text-align:center;
     
 }
 
-.div ContactMe{
-    
-}
+
 
 
 
