@@ -48,7 +48,7 @@ var htmlTemplate = `
                     <nav>
                        <a class="navbar" href="/">HOME</a>
                        <a class="navbar" href="/about">ABOUT</a>
-                       <a class="navbar" href="/articles/article-three">ARTICLES</a>
+                       <a class="navbar" href="/articles">ARTICLES</a>
                        <a class="navbar" href="/contact">CONTACT</a>
                     </nav>
             </div>
