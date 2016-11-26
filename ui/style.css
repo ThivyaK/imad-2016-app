@@ -34,21 +34,6 @@ body{
     
 }
 
-.head-contact{
-    width:100%;
-    height:350px;
-    background-image:url(/ui/contact.jpg);
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover;
-}
-
-.contact{
-    color:#fff;
-}
-
-
-
 .header{
     margin-top:0;
     width:100%;
