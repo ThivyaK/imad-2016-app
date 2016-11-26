@@ -257,7 +257,7 @@ input.submit:hover{
 }
 
 .post-preview{
-    
+    overflow:hidden;
 }
 
 .post-meta{
@@ -265,7 +265,7 @@ input.submit:hover{
 }
 
 .post-title{
-    
+    fon
 }
 
 .post-subtitle{
