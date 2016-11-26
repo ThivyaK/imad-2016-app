@@ -13,7 +13,6 @@ body{
 }
 
 .main{
-    height:400px;
     background-image:url(/ui/bground.jpg);
     background-position:center center;
     background-repeat:no-repeat;
@@ -120,7 +119,6 @@ h2{
 /*FOOTER SECTION*/	
 
 .footer {
-    margin-top:500px;
     background: #0c1215;
     padding: 10px 0;
     text-align:center;
