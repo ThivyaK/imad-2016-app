@@ -260,18 +260,31 @@ input.submit:hover{
     overflow:hidden;
 }
 
-.post-meta{
+.post-preview>a>.post-subtitle {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     
 }
 
-.post-title{
-    fon
+.post-preview>a>.post-subtitle:hover {
+    color: #6da7ba;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
-.post-subtitle{
-    
+
+post-preview>.post-meta {
+    color: #777;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0;
 }
 
+p {
+    line-height: 1.5;
+    margin: 30px 0;
+}
 
 
 
