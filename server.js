@@ -98,7 +98,7 @@ var htmlTemplate = `
                 <p>Copyright © 2016|Thivya Kanagendran</p>
             </div>
         </footer>
-            
+        <script type="text/javascript" src="/ui/main.js"></script>    
         <script type="text/javascript" src="/ui/articleName.js"></script>
     </body>
 </html>
