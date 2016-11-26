@@ -352,6 +352,10 @@ app.get('/ui/favicon.ico', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'favicon.ico'));
 });
 
+app.get('/ui/contact.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact.jpg'));
+});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
