@@ -304,7 +304,7 @@ p {
 }
 
 .fa-inverse {
-    color: #fff;
+    color:inherit;
 }
 
 .fa-stack-1x {
@@ -316,6 +316,7 @@ p {
     left: 0;
     width: 100%;
     text-align: center;
+    color:inherit;
 }
 
 .fa {
