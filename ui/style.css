@@ -241,12 +241,9 @@ input.submit:hover{
     margin: 20px 0 30px;
 }
 
-.div articles{
-    font-size:25;
-}
-
-.ul{
-    
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 
