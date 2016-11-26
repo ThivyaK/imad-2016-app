@@ -56,6 +56,15 @@ var htmlTemplate = `
                     <h1 class="about">Articles</h1>
                 </span>
         </div>
+        
+        <div id="articles-container">
+            <span>
+                <h3>My Articles</h3>
+            </span>
+            <div id="articles">
+                <center>Loading articles...</center>
+            </div>
+        </div>
             <hr/>
             <h3>
                 ${heading}
