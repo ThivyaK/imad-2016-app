@@ -56,15 +56,6 @@ var htmlTemplate = `
                     <h1 class="about">Articles</h1>
                 </span>
         </div>
-        
-        <div id="articles-container">
-            <span>
-                <h3>My Articles</h3>
-            </span>
-            <div id="articles">
-                <center>Loading articles...</center>
-            </div>
-        </div>
             <hr/>
             <h3>
                 ${heading}
@@ -98,7 +89,6 @@ var htmlTemplate = `
                 <p>Copyright © 2016|Thivya Kanagendran</p>
             </div>
         </footer>
-        <script type="text/javascript" src="/ui/main.js"></script>    
         <script type="text/javascript" src="/ui/articleName.js"></script>
     </body>
 </html>
