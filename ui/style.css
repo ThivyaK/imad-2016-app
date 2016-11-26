@@ -298,6 +298,10 @@ p {
 .fb{
     vertical-align:middle;
 }
+
+.linkedin{
+    vertical-align:middle;
+}
 .fa-stack {
     position: relative;
     display: inline-block;
