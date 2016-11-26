@@ -3,6 +3,11 @@ body{
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Delius Unicase', cursive;
     }
+    
+    @font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(/ui/about.html);
+}
 
 @media screen and (min-width:1000px){
     #container{
@@ -26,7 +31,7 @@ body{
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
-    font-family: 'Lato', sans-serif;
+    
 }
 
 
