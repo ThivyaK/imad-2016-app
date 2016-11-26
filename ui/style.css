@@ -256,7 +256,8 @@ input.submit:hover{
     width: 100%;
 }
 
-.post-preview{
+.post-preview>a {
+    color: #333;
     overflow:hidden;
 }
 
@@ -268,7 +269,7 @@ input.submit:hover{
 }
 
 .post-preview>a>.post-subtitle:hover {
-    color: #6da7ba;
+    color: #337ab7;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
