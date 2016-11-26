@@ -2,7 +2,7 @@ body{
     margin:0;
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Delius Unicase', cursive;
-}
+    }
 
 @media screen and (min-width:1000px){
     #container{
@@ -26,6 +26,7 @@ body{
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -337,6 +338,7 @@ p {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+}
 
 
 
