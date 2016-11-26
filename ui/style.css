@@ -241,13 +241,12 @@ input.submit:hover{
     margin: 20px 0 30px;
 }
 
-.div articles-container{
-    text-align:center;
-    
-}
-
 .div articles{
     font-size:25;
+}
+
+.ul{
+    
 }
 
 
